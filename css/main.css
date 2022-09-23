@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+/* body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+    scroll-behavior: smooth;
+} */
+
+/* Reused able Classes */
+
+/* How to hide scroll bar section in html */
+body {
+    font-family: "Barlow", sans-serif;
+    color: #516171;
+    line-height: 1.7;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    }
+    
+    body.active { overflow: hidden; }
+    
+    :focus-visible { outline-offset: 4px; }
+    
+    ::-webkit-scrollbar { width: 10px; }
+    
+    ::-webkit-scrollbar-track { background-color: hsl(0, 0%, 98%); }
+    
+    ::-webkit-scrollbar-thumb { background-color: hsl(0, 0%, 80%); }
+    
+    ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
+/* End of How to hide scroll bar section in html */
+
+/* Reused able Classes */
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+    color: #092032 !important;
+    line-height: 1.2 !important;
+    margin-bottom: 10px !important;
+}
+
+p{
+    margin-bottom: 16px !important;
+}
+
+section {
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+}
+
+a {
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 700 !important;
+}
+
+img {
+    width: 100%;
+}
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro h6 {
+    font-weight: 400;
+    color: #ff4d29 !important;
+    margin-top: 20px;
+}
+
+.intro p {
+    max-width: 500px;
+    /* margin: auto; */
+}
+
+/* Top Navigation Bar */
+.top-nav{
+    background-color: #ff4d29;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p {
+    margin-bottom: 0 !important;
+    display: inline-block !important;
+    margin-right: 10px !important;
+    color: white !important;
+}
+
+.top-nav i , .top-nav span {
+    vertical-align: middle;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: rgba(245, 245, 245, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 100%;
+}
+
+.social-links a:hover {
+    background-color: white;
+    color: #ff4d29;
+}
+
+/* Main Navigation Bar */
+.navbar {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: #ff4d29;
+}
+
+
+.navbar-brand {
+    font-weight: 700 !important;
+    font-size: 24px;
+    color: #092032;
+}
+
+.navbar-brand span{
+    color: #ff4d29;
+}
+
+/* Btn */
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn-brand{
+    background-color: #ff4d29 !important;
+    color: white !important;
+    border-color: #ff4d29 !important;
+}
+
+.btn-brand:hover{
+    color: white !important;
+    background-color: #e12e0ac7 !important;
+}
+
+/* Slider section */
+.slide1 {
+    background: linear-gradient(rgba(9, 32, 50, 0.7),rgba(9, 32, 50, 0.7)), url(/img/slide_portfolio_img02.jpg);
+}
+
+.slide2 {
+    background: linear-gradient(rgba(9, 32, 50, 0.7),rgba(9, 32, 50, 0.7)), url(/img/0.jpg);
+}
+
+.slide3 {
+    background: linear-gradient(rgba(9, 32, 50, 0.7),rgba(9, 32, 50, 0.7)), url(/img/Plane\ and\ Ship-01\ \(1\)\ \(1\).webp);
+}
+
+/* Owl Carousel */
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(245, 245, 245, 0.3) !important;
+    font-size: 12px !important;
+    margin-top: -30px !important;
+    color: white !important;
+    font-weight: 700 !important;
+    border-radius: 100px !important;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    background-color: #ff4d29 !important;
+}
+
+.sign{
+    width: 7rem;
+}
+
+/* About section */
+/* .two-col-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+} */
+
+#about h1 {
+    margin-top: 4px;
+    margin-bottom: 24px;
+}
+
+/* #about  {
+    color: #ff4d29;
+    font-weight: 400;
+    margin-top: 20px;
+} */
+
+/* @media (maz-width: 768px){
+    .two-col-grid{
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}*/ 
+
+
+/* Milestone section */
+#milestone{
+    background: linear-gradient(rgba(255, 77, 41, 0.7),rgba(255, 77, 41, 0.9)), url(/img/anchor-module-image.jpg);
+}
+
+#milestone .display-4,
+#milestone p {
+    color: white;
+}
+
+#milestone .display-4 {
+    font-weight: 700;
+}
+
+/* Services Section */
+.service-box {
+    padding: 32px;
+    /* box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08); */
+    text-align: center;
+    border-top: rgba(0, 0, 0, 0.08) solid 2px;
+    border-left: rgba(0, 0, 0, 0.08) solid 2px;
+}
+
+.service-box:hover {
+    box-shadow: 0px 6px 30px rgba(255, 77, 41, 0.15);
+    border-bottom: #ff4d29 solid 2px;
+    border-right: #ff4d29 solid 2px;
+    
+}
+
+.service-box img {
+    width: unset;
+}
+
+.service-box h5 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+/* Client section */
+.project {
+    position: relative;
+}
+
+.project .overlay {
+    background: linear-gradient(to bottom, rgba(9, 32, 50, 0.0), rgba(9, 32, 50, 0.8));
+    position: absolute;
+    width: 100%;
+    height: 240px;
+    bottom: 0;
+    left: 0;
+}
+
+.project .content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 32px;
+}
+
+.project h6{
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.project h1,
+.project h6 {
+    color: white !important;
+}
+
+.project h6::before {
+    content:'';
+    height: 2px;
+    width: 24px;
+    background: #ff4d29;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+/* Team Section */
+.team-members {
+    text-align: center;
+}
+
+.team-members .img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-members .overlay {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 76, 41, 0.70);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.team-members .social-links {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.team-members:hover .overlay {
+    opacity: 1;
+    top: 0;
+}
+
+.team-members:hover .social-links {
+    opacity: 1;
+    top: 50%;
+}
+
+.team-members h5 {
+    margin-top: 20px;
+}
+
+/* Hamburger menu */
+button.navbar-toggler {
+    padding: 2px;
+}
+
+/* Review section */
+#reviews {
+    background: linear-gradient(rgba(9, 32, 50, 0.8),rgba(9, 32, 50, 0.8)), url(/img/mark-olsen-K5j1KgecVC8-unsplash.jpg);
+}
+
+.review {
+    max-width: 800px !important;
+    margin: auto;
+    text-align: center;
+    /* position: relative;
+    z-index: 2; */
+}
+
+.review .bxs-quote-alt-left {
+    font-size: 120px !important;
+    position: absolute !important;
+    opacity: 0.1 !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    color: #fff ;
+}
+
+.review .stars {
+    color: #ff4d29;
+}
+
+.review img {
+    width: 85px !important;
+    height:85px;
+    border-radius: 100px ;
+    margin: auto;
+}
+
+.review h5 {
+    margin-top: 8px !important;
+    /* margin-bottom: 18px !important; */
+    font-size: 22px;
+}
+
+.review h5,
+.review p {
+    color: #fff !important;
+}
+
+.review small {
+    color: #ff4d29;
+}
+
+.review p {
+    margin-top: 28px !important;
+}
+
+/* Blog Section */
+.blog-post {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.blog-post .content {
+    padding: 32px;
+}
+
+.blog-post a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ff4d29;
+    padding: 2px 12px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.blog-post h5 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.blog-post small {
+    text-transform: uppercase;
+    color: #ff4d29;
+    text-decoration: underline;
+}
+
+.blog-post h5:hover {
+    color: #ff4d29;
+    cursor: pointer;
+}
+
+
+/* Footer section */
+footer {
+    padding-top: 160px;
+    background: #092032;
+}
+
+footer a,
+footer h4,
+footer p {
+    color: #fff !important;
+}
+
+footer a:hover{
+    color: #ff4d29;
+    cursor: pointer;
+}
+footer .lead1:hover{
+    color: #ff4d29 !important;
+    cursor: pointer;
+}
+
+footer .lead1{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* footer .social-links{
+    display: flex;
+} */
+
+footer h4,
+footer p {
+    color: #fff;
+}
+
+footer .social-links a{
+    margin-right: 5px;
+    background: #ff4d29;
+}
+.footer-top {
+    padding-bottom: 10px;
+}
+
+.footer-bottom {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(245, 245, 245, 0.086);
+}
+
+/* Form section */
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ff4d29;
+}
+
+input.form-control {
+    border-color: transparent;
+    height: 44px;
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.04);
+    border-color: rgba(0, 0, 0, 0.04);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: ;
+}
